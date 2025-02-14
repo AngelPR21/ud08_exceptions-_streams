@@ -23,7 +23,7 @@ public class MainGato {
             }catch(ExcepcionGatuna e){ //tambien captura las gatunas con Exception puesto que extiende exception
                 System.out.println(e.getMessage());
                 i--;
-                scanner.next();
+
             }catch(InputMismatchException e){
                 e.printStackTrace();
                 i--;
