@@ -35,3 +35,7 @@ public class MainGato {
     }
 
 }
+//    try: En este bloque se coloca el código que puede causar una excepción.
+//        catch: Si se lanza una excepción del tipo especificado (en este caso ArithmeticException), el bloque catch captura la excepción y maneja el error.
+//    finally: Este bloque siempre se ejecuta al final, sin importar si hubo o no una excepción.
+
