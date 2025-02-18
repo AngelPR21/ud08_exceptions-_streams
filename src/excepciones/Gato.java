@@ -1,6 +1,11 @@
 package excepciones;
 
-public class Gato {
+import java.io.*;
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Gato implements Serializable {
 
 
     private String nombre;
@@ -46,4 +51,17 @@ public class Gato {
                 ", edad=" + edad +
                 '}';
     }
+//    @Override
+//    public static List<Gato> load(String fichero) throws IOException, ClassNotFoundException{
+//        List<Gato> listaGato = new ArrayList<>();
+//        ObjectInputStream input = new ObjectInputStream(new FileInputStream(fichero));
+//        return(List<Gato>) input.readObject();
+//    }
+
+//    @Override
+//    public static void save(String fichero,List<Gato> gatos )throws IOException{
+//        ObjectInputStream output = new ObjectOutputStream(new FileOutputStream(fichero));
+//        output.writeObject(gatos);
+//
+//    }
 }
